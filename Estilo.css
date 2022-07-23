@@ -1,0 +1,52 @@
+*{
+    padding : 0;
+    margin: 0;
+    }
+    h1{
+      text-align: center;
+      background-color: black;
+      padding: 20px;
+    }
+    nav ul{
+     background-color: #757575;
+     width: 100%;
+     list-style-type: none;
+     text-align: center;
+    }
+    nav li{
+      display: inline-flex;
+    }
+    nav a {
+        text-decoration: none;
+        color: mistyrose;
+        padding: 10px;
+        width: 150px;
+    }
+    nav li:hover{
+        background-color: black;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        border-right: 50%;
+        object-fit: cover;
+    }
+    div.galeria{
+        margin: 10px 20px;
+        box-shadow: 0 4px 8px lightblue, 0 6px 20px 0 rgba(0,0,0,0,19);
+        float: left;
+        width: 350px;
+    } 
+    div.galeria img{
+        width: 100%;
+        height: auto;
+    }
+    div.galeria:hover{
+        border: 1px solid lightcoral;
+        transform: rotate(-3deg);
+    }
+    div.pie{
+        text-align: center;
+        text-shadow: 2px 2px 5px paleturquoise;
+        padding: 10px;
+    }
